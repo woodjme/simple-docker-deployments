@@ -20,7 +20,7 @@ Would be a good idea to use a process manager such as [pm2](http://pm2.keymetric
 
 ## Usage
 
-Send a `PUT` request to the web server with a `JSON` body detailed below.
+Send a `POST` request to the web server with a `JSON` body detailed below.
 
 ```json
 {
