@@ -1,7 +1,7 @@
 
 const express = require('express');
 const app = express();
-const port = process.env.port || 8085;
+const port = 8080;
 const bodyParser = require('body-parser');
 const Docker = require('dockerode');
 const docker = new Docker({
